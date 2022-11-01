@@ -1,0 +1,200 @@
+:root{
+    --main-font-color: rgb(184, 43, 43);
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: minxmax(auto, 1fr);
+    grid-template-rows: auto;
+    
+    
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.logo {
+    height: 300px;
+    align-self: center;
+}
+
+.logoDiv {
+    
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.nav {
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+    color: red;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: 20px;
+    gap: 40px;
+
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+    
+}
+
+
+
+.nav > div:hover{
+    cursor: pointer;
+
+}
+
+.nav > div{
+    
+    vertical-align: middle;
+    color: red;
+}
+
+#content {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 85%;
+    max-width: 800px;
+    height: auto;
+    
+    text-align: center;
+    
+    align-self: center;
+    justify-content: center;
+    border: solid 10px red;
+}
+
+/*Home*/
+
+.intro {
+    font-style: italic;
+    font-size: 40px;
+    color: var(--main-font-color);
+    margin: 40px;
+}
+
+.introPicture {
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.hours {
+    font-weight: bolder;
+    font-size: 22px;
+    padding-top: 16px;
+}
+
+.introHours {
+    color: var(--main-font-color);
+    margin: 20px 25% 20px 25%;
+    border: dotted 4px red;
+}
+
+.introHours > div {
+    color: var(--main-font-color);
+}
+
+.imgCredits {
+    font-size: 12px;
+    font-style: oblique;
+    color: var(--main-font-color);
+}
+
+/*Menu*/
+
+.menuTitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: var(--main-font-color);
+    font-weight: bolder;
+    border-bottom: dashed 1px red;
+}
+    
+
+
+.doubledoubleContainer {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (4, 1fr);
+    
+}
+
+.doubledoubleContainer > div {
+    min-height: 300px;
+}
+
+.doubledoubleImageContainer {
+    
+}
+
+.doubledoubleTextContainer > div {
+    color: var(--main-font-color);
+    
+}
+
+.doubledoubleTextTitle {
+    font-size: 40px;
+} 
+.doubledoubleTextPrice {
+    padding-top: 20px;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.doubledoubleImage{
+    width: 100%;
+    
+}
+
+.contactContainer{
+    border: dashed 2px var(--main-font-color);
+    padding-top: 10px;
+
+}
+
+.contactContainer > div {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-font-color);
+}
+
+.contactText {
+    border-bottom: dashed 1px red;
+    padding-bottom: 10px;
+    color: var(--main-font-color);
+}
+
+.contactPhone {
+    color: var(--main-font-color);
+}
+
+.contactEmail {
+    color: var(--main-font-color);
+}
+    
+    
+
+    
+    
