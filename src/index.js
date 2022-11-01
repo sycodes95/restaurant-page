@@ -1,6 +1,7 @@
 import createContact from './contact';
 import createHome from './home'
 import createMenu from './menu'
+import logoImg from './logo.png'
 
 
 
@@ -13,7 +14,7 @@ body.appendChild(logoDiv);
 
 let logo = document.createElement('img');
 logo.classList.add('logo');
-logo.src = '../src/logo.png';
+logo.src = logoImg;
 logoDiv.appendChild(logo);
 
 const nav = document.createElement('div');

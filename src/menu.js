@@ -1,4 +1,4 @@
-
+import doubledoubleImg from './double-double.png';
 
 function createMenu (){
 
@@ -18,7 +18,7 @@ function createMenu (){
 
     const doubledoubleImage = document.createElement('img');
     doubledoubleImage.classList.add('doubledoubleImage');
-    doubledoubleImage.src = '../src/double-double.png';
+    doubledoubleImage.src = doubledoubleImg;
     doubledoubleImageContainer.appendChild(doubledoubleImage);
 
     const doubledoubleTextContainer = document.createElement('div');

@@ -1,4 +1,4 @@
-
+import introImg from './INNOUTART.jpg'
 
 
 function createHome (){
@@ -54,7 +54,7 @@ function createHome (){
 
     const introPicture = document.createElement('img');
     introPicture.classList.add('introPicture');
-    introPicture.src = '../src/INNOUTART.jpg';
+    introPicture.src = introImg;
     content.appendChild(introPicture)
 
     const imgCredits = document.createElement('div');
